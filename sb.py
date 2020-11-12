@@ -24,7 +24,7 @@ from thrift.transport import THttpClient
 botStart = time.time()
 cl = LINE("ENaoOR7jsGlIhxfxBUUb.0PzLwS72Fl1EGGJMnIN3IW.7k4OIV4TbYJWJy52Z2RVtPMaOp+J47jcosfbrQ+QDUE=")
 #cl = LINE("YOUR TOKEN")
-#cl = LINE("Email","Password")
+#cl = LINE("persija1917@gmail.com","kalibata123")
 
 cl.log("Auth Token : " + str(cl.authToken))
 channelToken = cl.getChannelResult()
@@ -676,7 +676,7 @@ def clBot(op):
                 "contents": [
                   {
                     "type": "text",
-                    "text": "SELFBOT ONLY",
+                    "text": "JAKARTANS",
                     "size": "xl",
                     "wrap": True,
                     "weight": "bold",
